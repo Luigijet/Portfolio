@@ -555,3 +555,95 @@ footer p:nth-child(2) {
         justify-content: justify;
     }
 }
+@media(max-width: 560px){
+    h1 {
+        margin: 10px 0px 10px;
+        font-size: 30px;
+    }
+    
+    h3 {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    
+    h4 {
+        font-size: 18px;
+    }
+    
+    .newslatter form {
+        width: 200px;
+    }
+    .newslatter form input:first-child {
+        padding: 5px 20px 5px 10px;
+        font-size: 12px;
+        height: 35px;
+
+    }
+    
+    .newslatter form input:last-child {
+        padding: 5px 10px;
+        border-radius: 30px;
+        background-color: #f9004d;
+        color: white;
+        box-shadow: 0px 0px 5px #000, 0px 0px 5px #858585;
+        top: 2px;
+        right: 4.5px;
+    }
+    .about{
+        width: 100%;
+        padding: 30px 0px;
+       
+    }
+    .about img {
+        height: auto;
+        width: 300px;
+    }
+    
+    .about-text {
+        width: 400px;
+        text-align: center;
+    }
+    
+    .main {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about-text h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    
+    .about-text h5 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    
+    
+    .about-text p {
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 45px;
+    }
+    
+    button {
+        position: relative;
+        bottom: 30px;
+    }
+    .service .title h2{
+        font-size: px;
+    }
+    .contact p{
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+    }
+    footer p:nth-child(2){
+        width: 450px;
+    }
+}
+
