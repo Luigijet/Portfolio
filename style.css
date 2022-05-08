@@ -26,10 +26,10 @@ nav {
     width: 100%;
 }
 .navbar.sticky{
-	padding-top: 25px;
+    padding-top: 25px;
     padding-left: 8%;
     padding-right: 8%;
-	background: #191919;
+    background: #191919;
 }
 
 .logo {
@@ -297,43 +297,43 @@ h5 {
     text-align: justify;
 }
 .skills .skills-content .left a{
-	display: inline-block;
-	background: #f9004d;
-	color: white;
-	font-size: 20px;
-	padding: 12px 36px;
-	margin-top: 30px;
-	border-radius: 20px;
+     display: inline-block;
+     background: #f9004d;
+     color: white;
+     font-size: 20px;
+     padding: 12px 36px;
+     margin-top: 30px;
+     border-radius: 20px;
 }
 .skills .skills-content .right{
-    width: 55%;
-    padding-left: 40px;
+     width: 55%;
+     padding-left: 40px;
 
 }
 .skills .skills-content .right .bar{
-	margin-bottom: 15px;
+     margin-bottom: 15px;
 
 }
 .skills .skills-content .right .info{
-	display: flex;
-	margin-bottom: 5px;
-	align-items: center;
-	justify-content: space-between;
+     display: flex;
+     margin-bottom: 5px;
+     align-items: center;
+     justify-content: space-between;
 }
 .skills .skills-content .right .info:hover{
-	color: #f9004d;
+     color: #f9004d;
 }
 .skills .skills-content .right span{
-	font-weight: 600;
-	font-size: 18px;
-	padding: 5px;
-    color: white;
+     font-weight: 600;
+     font-size: 18px;
+     padding: 5px;
+     color: white;
 }
 .skills .skills-content .right .line{
-	height: 10px;
-	width: 100%;
-	background: lightgray;
-	position: relative;
+     height: 10px;
+     width: 100%;
+     background: lightgray;
+     position: relative;
 }
 .skills .skills-content .right .line::before{
 	content: "";
@@ -476,15 +476,15 @@ footer p:nth-child(2) {
     }
     nav ul{
         position: fixed;
-		height: 100%;
-		width: 100%;
-		left: -100%;
-		top: 0;
-		background: black;
-		opacity: 90%;
-		padding-top: 80px;
-		text-align: center;
-		transition: all 0.3s ease;
+	height: 100%;
+	width: 100%;
+	left: -100%;
+	top: 0;
+	background: black;
+	opacity: 90%;
+	padding-top: 80px;
+	text-align: center;
+	transition: all 0.3s ease;
     }
     nav ul.active{
         left: 0;
