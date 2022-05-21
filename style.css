@@ -26,10 +26,11 @@ nav {
     width: 100%;
 }
 .navbar.sticky{
-	padding-top: 25px;
+    padding-top: 25px;
     padding-left: 8%;
     padding-right: 8%;
-	background: #191919;
+    background: #191919;
+    width: 100%;
 }
 
 .logo {
@@ -471,6 +472,7 @@ footer p:nth-child(2) {
         padding-right: 5%    
     }
     nav .burger-btn{
+	margin-left: 15px;
         display: block;
         z-index: 9999999;
     }
