@@ -468,11 +468,10 @@ footer p:nth-child(2) {
         align-items: center;
         justify-content: space-between;
         padding-top: 25px;
-        padding-left: 10%;
+        padding-left: 5%;
         padding-right: 5%    
     }
     nav .burger-btn{
-	margin-left: 15px;
         display: block;
         z-index: 9999999;
     }
@@ -787,6 +786,9 @@ footer p:nth-child(2) {
     }
 }
 @media(max-width: 500px){
+    nav{
+        padding-left: 10%;
+    }
     .about-text p {
         letter-spacing: 1px;
         line-height: 28px;
