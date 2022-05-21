@@ -787,7 +787,7 @@ footer p:nth-child(2) {
 }
 @media(max-width: 500px){
     nav{
-        padding-left: 10%;
+        padding-right: 10%;
     }
     .about-text p {
         letter-spacing: 1px;
