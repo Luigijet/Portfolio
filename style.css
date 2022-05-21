@@ -467,7 +467,7 @@ footer p:nth-child(2) {
         align-items: center;
         justify-content: space-between;
         padding-top: 25px;
-        padding-left: 5%;
+        padding-left: 10%;
         padding-right: 5%    
     }
     nav .burger-btn{
