@@ -598,6 +598,9 @@ footer p:nth-child(2) {
         margin-bottom: 30px; 
 }
 @media(max-width: 690px){
+	 .navbar.sticky{
+	    width: 100%;
+	}
     .about img {
         height: auto;
         width: 220px;
@@ -695,6 +698,9 @@ footer p:nth-child(2) {
    
 }
 @media(max-width: 560px){
+    .navbar.sticky{
+	    width: 100%;
+	}
     h1 {
         margin: 10px 0px 10px;
         font-size: 30px;
@@ -786,6 +792,10 @@ footer p:nth-child(2) {
     }
 }
 @media(max-width: 500px){
+    .navbar.sticky{
+	    width: 100%;
+	}
+	  
     nav{
         padding-right: 10%;
     }
